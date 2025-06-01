@@ -8,7 +8,7 @@ const ReRouteToWaitlist = () => {
 
     useEffect(()=>{
         router.push("/waitlist")
-    },[])
+    })
   return null
 }
 

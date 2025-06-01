@@ -1,6 +1,6 @@
 import React from 'react'
 
-const WaitlistLayout = ({children, className}:Readonly<Children>) => {
+const WaitlistLayout = ({children}:Readonly<Children>) => {
   return (
     <div>
         {children}
