@@ -1,6 +1,6 @@
 import React from 'react'
 
-const WaitlistLayout = ({children}:Children) => {
+const WaitlistLayout = ({children}: ChildrenProps) => {
   return (
     <div>
         {children}
