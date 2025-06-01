@@ -1,4 +1,4 @@
-type ChildrenProps = {
+export type ChildrenProps = {
   children: React.ReactNode;
   className?: string;
 };

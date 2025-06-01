@@ -1,9 +1,10 @@
+import { ChildrenProps } from '@/lib/types'
 import React from 'react'
 
-const WaitlistLayout = ({children}: ChildrenProps) => {
+const WaitlistLayout = (props: ChildrenProps) => {
   return (
     <div>
-        {children}
+        {props.children}
     </div>
   )
 }
